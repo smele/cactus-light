@@ -1,10 +1,10 @@
-# Cactus Dark
+# Cactus Light
 
-A responsive, dark and simple [Hexo](http://hexo.io) theme for a personal website.
+A responsive, light and simple [Hexo](http://hexo.io) theme for a personal website. Based on the original [Cactus Dark](https://github.com/probberechts/cactus-dark) theme by [Pieter Robberechts](https://github.com/probberechts).
 
-:cactus: [Demo](https://probberechts.github.io/cactus-dark/)
+:cactus: [Demo](http://gabithu.me)
 
-![cactus-dark](https://cloud.githubusercontent.com/assets/2175271/19885143/62e9269c-a01d-11e6-8e26-e36a36201d88.png)
+![cactus-light](https://cloud.githubusercontent.com/assets/2175271/19885143/62e9269c-a01d-11e6-8e26-e36a36201d88.png)
 
 ## Summary
 
@@ -34,7 +34,7 @@ A responsive, dark and simple [Hexo](http://hexo.io) theme for a personal websit
 1. In the `root` directory:
 
     ```git
-    $ git clone https://github.com/probberechts/cactus-dark.git themes/cactus-dark
+    $ git clone https://github.com/gabithume/cactus-light.git themes/cactus-light
     $ npm install hexo-pagination --save
     ```
 
@@ -42,7 +42,7 @@ A responsive, dark and simple [Hexo](http://hexo.io) theme for a personal websit
 
     ```yml
     # theme: landscape
-    theme: cactus-dark
+    theme: cactus-light
     ```
 
 3. Run: `hexo generate` and `hexo server`
@@ -58,7 +58,7 @@ Setup the navigation menu in the theme's `_config.yml`:
     Home: /
     About: /about/
     Writing: /archives/
-    Projects: http://github.com/probberechts
+    Projects: http://github.com/gabithume
     LINK_NAME: URL
   ```
 
@@ -74,7 +74,7 @@ You have two options for the list of blog posts on the home page:
     post_count: 5
   ```
 
-  - Show all posts 
+  - Show all posts
 
   ```
   customize:
@@ -102,7 +102,7 @@ Create a projects file `source/_data/projects.json`.
 
 ### Social media links
 
-Cactus Dark can automatically add links to your social media accounts. Therefore, update the theme's `_config.yml`:
+Cactus Light can automatically add links to your social media accounts. Therefore, update the theme's `_config.yml`:
 
   ```
   customize:
@@ -120,7 +120,7 @@ Set the `rss` field in the theme's `_config.yml` to one of the following values:
 
 1. `rss: false` will totally disable rss (default).
 2. `rss: atom.xml` sets a specific feed link.
-3. `rss:`leave empty to use the [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) plugin. 
+3. `rss:`leave empty to use the [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) plugin.
 
 ### Analytics
 
@@ -146,7 +146,7 @@ where `SITENAME` is the name you gave your site on Disqus.
 
 ### Code Highlighting
 
-Pick one of [the available colorschemes](https://github.com/probberechts/cactus-dark/tree/master/source/css/_highlight) and add it to the theme's `_config.yml`:
+Pick one of [the available colorschemes](https://github.com/gabithume/cactus-light/tree/master/source/css/_highlight) and add it to the theme's `_config.yml`:
 
   ```
   customize:
